@@ -1,0 +1,60 @@
+.banner-oxford {
+    padding: 155px 0 151px;
+    background-image: url(../images/oxford-1920.webp);
+    background-repeat: no-repeat;
+}
+
+.container-banner {
+    max-width: 508px;
+    min-height: 294px;
+}
+
+.banner-oxford__title {
+    margin: 0;
+    font-family: $playDisplay;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 120%;
+    color: #d5b986;
+    word-wrap: break-word;
+}
+
+.banner-oxford__text {
+    margin: 0;
+    margin-bottom: 70px;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 120%;
+    color: #fff;
+    word-wrap: break-word;
+}
+
+.banner-oxford__btn {
+    padding: 17px 30px;
+    max-width: 187px;
+    border-radius: 10px;
+    border: 2px solid $f2;
+    background: $f2;
+    font-family: $open;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+    word-wrap: break-word;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+}
+
+.banner-oxford__btn:focus {
+    background: $f4;
+    border: 2px solid $f3;
+}
+
+.banner-oxford__btn:hover {
+    background: $f4;
+}
+
+.banner-oxford__btn:active {
+    background: $f3;
+}

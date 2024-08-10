@@ -1,0 +1,126 @@
+.footer {
+    position: relative;
+    min-height: 166px;
+    padding: 24px 0;
+    background-color: #eaeaea;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__logotip-logo {
+    margin-bottom: 27px;
+}
+
+.footer__social {
+    display: flex;
+    gap: 20px;
+}
+
+.footer__social-link {
+    color: #999999;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.footer__social-link:focus {
+    color: $f4;
+    background-color: $f4;
+}
+
+.footer__social-link:hover {
+    color: $f2;
+}
+
+.footer__social-link:active {
+    color: $f3;
+}
+
+.footer__list {
+    display: flex;
+    gap: 112px;
+    padding: 3px 0;
+}
+
+.footer__item {
+    width: 100%;
+}
+
+.footer__item-one {
+    width: 84px;
+    white-space: nowrap;
+}
+
+.footer__item-two {
+    width: 154px;
+    white-space: nowrap;
+}
+
+.footer__item-three {
+    width: 141px;
+    white-space: nowrap;
+}
+
+.footer__item-four {
+    width: 128px;
+    white-space: nowrap;
+}
+
+.footer__sublist {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer__link {
+    display: flex;
+    height: 60%;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #999;
+}
+
+.footer__link-big {
+    margin: 0;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #333;
+    word-wrap: break-word;
+}
+
+.footer__copyright {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 30px;
+    background-color: #f6f6f6;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+    word-wrap: break-word;
+
+}
+
+.footer__copyright-smalltext {
+    min-width: 118px ;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: #999;
+}
+
+.footer__copyright-smalltext-span {
+    margin-right: 7px;
+}

@@ -1,0 +1,41 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+
+img,
+svg {
+    max-width: 100%;
+}
+
+.reset-btn {
+    border: none;
+    padding: 0;
+    background-color: transparent;
+    cursor: pointer;
+    word-wrap: break-word;
+}
+
+.reset-list {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.main__title {
+    visibility: hidden;
+    margin: 0;
+    height: 0;
+}

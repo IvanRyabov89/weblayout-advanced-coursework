@@ -1,0 +1,146 @@
+.high-rating {
+    padding: 35px 0 69px;
+}
+
+.high-rating__title {
+    margin: 0;
+    margin-bottom: 26px;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #333;
+    word-wrap: break-word;
+}
+
+.grid-high-rating {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 32px;
+}
+
+.grid-high-ratings {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 30px;
+    min-height: 420px;
+    justify-content: flex-end;
+    border-radius: 10px;
+    background: #f6f6f6;
+    word-wrap: break-word;
+}
+
+.high-rating-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.high-rating-card__status {
+    position: absolute;
+    display: flex;
+    top: 30px;
+    left: 30px;
+    gap: 7px;
+    align-items: center;
+}
+
+.high-rating-card__star {
+    height: 15px;
+}
+
+.high-rating-card-smalltext {
+    font-family: $open;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #ff862f;
+    word-wrap: break-word;
+}
+
+.high-rating-card__image {
+    position: absolute;
+    bottom: 230px;
+    left: 15px;
+}
+
+.high-rating-card__image-two,
+.high-rating-card__image-three {
+    left: 17px;
+}
+
+.high-rating-card__image-four {
+    left: 19px;
+}
+
+
+.high-rating-card__image-six {
+    left: 12px;
+}
+
+.high-rating-card__image__eight {
+    left: 42px;
+}
+
+.no-break {
+    white-space: nowrap;
+  }
+
+  .grid-high-rating__content {
+    display: flex;
+    flex-direction: column;
+    min-height: 183px;
+    max-width: 233px;
+  }
+
+.high-rating-card__text {
+    margin: 0;
+    margin-bottom: 22px;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 131%;
+    color: #333;
+    word-wrap: break-word;
+}
+
+.high-rating-card__price {
+    margin-bottom: 24px;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: #666;
+    word-wrap: break-word;
+}
+
+.high-rating-card__btn {
+    max-width: 128px;
+    padding: 17px 33px;
+    border: 2px solid #a65cf0;
+    border-radius: 10px;
+    font-family: $open;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: $f2;
+    word-wrap: break-word;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.high-rating-card__btn:focus {
+    background: $f4;
+    color: #fff;
+}
+
+.high-rating-card__btn:hover {
+    background: $f2;
+    color: #fff;
+}
+
+.high-rating-card__btn:active {
+    background: $f3;
+    color: #fff;
+}

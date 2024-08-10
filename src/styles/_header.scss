@@ -1,0 +1,227 @@
+.header {
+    position: relative;
+    padding-bottom: 32px;
+}
+
+.header__container {
+    display: flex;
+    flex-direction: column;
+    min-height: 201px;
+    justify-content: flex-end;
+}
+
+.header__container-one {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    width: 100%;
+    background-color: #f6f6f6;
+    justify-content: center;
+}
+
+.header__container-one-content {
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    padding: 14px 0px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__link-tel {
+    position: relative;
+    display: flex;
+    height: 22px;
+    padding-left: 22px;
+    align-items: center;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #ff862f;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.header__link-tel:focus {
+    background-color: #fff5d1;
+}
+
+.header__link-tel:hover {
+    color: #ffbd59;
+}
+
+.header__link-tel:active {
+    color: #bb370e;
+    background-color: transparent;
+}
+
+.header__image-tel {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.header__list-additional {
+    display: flex;
+    gap: 65px;
+}
+
+.header__link-additional {
+    font-family: $open;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #999;
+    word-wrap: break-word;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.header__link-additional:focus {
+    background-color: $f1;
+    color: $f3;
+}
+
+.header__link-additional:hover {
+    color: $f2;
+}
+
+.header__link-additional:active {
+    background-color: transparent;
+    color: $f3;
+}
+
+.header__container-two {
+    display: flex;
+    padding-bottom: 27px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__list {
+    display: flex;
+    gap: 92px;
+    padding-right: 2px;
+}
+
+.header__item {
+    display: flex;
+    min-height: 22px;
+}
+
+.header__link {
+    font-family: $open;
+    font-weight: 400;
+    font-size: 16px;
+    color: #333;
+    word-wrap: break-word;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.header__link:focus {
+    background-color: $f1;
+}
+
+.header__link:hover {
+    color: $f2;
+}
+
+.header__link:active {
+    color: $f3;
+    background-color: transparent;
+}
+
+.header__container-three {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__form {
+    position: relative;
+    max-width: 1061px;
+    width: 100%;
+    color: #999999;
+}
+
+.header__form:active {
+    color: $f2;
+}
+
+.header__textarea {
+    width: 100%;
+    padding: 21px 66px 17px 57px;
+    border: 2px solid transparent;
+    border-radius: 10px;
+    background: #f6f6f6;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.header__textarea:focus {
+    background: $f0;
+    border: 2px solid $f2;
+}
+
+.header__textarea:hover {
+    background: #eaeaea;
+}
+
+.header__textarea:active {
+    color: $f2;
+}
+
+.header__textarea::placeholder {
+    letter-spacing: 0.1px;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    color: #999;
+}
+
+.header__form-image {
+    position: absolute;
+    top: 19px;
+    left: 32px;
+}
+
+.header__form-btn {
+    position: absolute;
+    top: 13px;
+    right: 32px;
+    stroke: $f2;
+}
+
+.header__personal {
+    display: flex;
+    gap: 32px;
+    padding-bottom: 17px;
+    align-items: end;
+}
+
+.header__personal-account {
+    height: 28px;
+}
+
+.header__personal-basket {
+    position: relative;
+    padding-left: 11px;
+    height: 28px;
+}
+
+.header__personal-backet-number {
+    position: absolute;
+    top: 6px;
+    left: 0px;
+}
+
+.header__personal-backet-numbers {
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    font-family: $open;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 100%;
+    text-align: center;
+    color: #fff;
+}

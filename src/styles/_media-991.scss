@@ -1,0 +1,265 @@
+@media(max-width:991px) {
+    .container {
+        padding: 0 68px;
+    }
+
+    /*header*/
+    .header__container {
+        min-height: 315px;
+    }
+
+    .header__container-one-content {
+        padding: 17px 72px 15px;
+    }
+
+    .header__link-tel {
+        width: 143px;
+        left: 72px;
+    }
+
+    .header__list-additional {
+        gap: 35px;
+    }
+
+    .header__container-two {
+        flex-direction: column;
+        align-items: start;
+        padding-bottom: 30px;
+    }
+
+    .header__logo {
+        margin-bottom: 28px;
+    }
+
+    .header__list {
+        gap: 40px;
+    }
+
+    .header__item {
+        word-wrap: break-word;
+    }
+
+    .header__item-two {
+        width: 70px;
+    }
+
+    .header__item-three {
+        width: 61px;
+    }
+
+    .header__item-four {
+        width: 126px;
+    }
+
+    .header__item-five {
+        width: 57px;
+    }
+
+    .header__link {
+        font-size: 14px;
+    }
+
+
+    .header__form {
+        max-width: 100%;
+    }
+
+    .header__personal {
+        top: -114px;
+        right: 5px;
+    }
+
+    /*hero*/
+    .hero {
+        background-image: url(../images/hero-banner-768.webp);
+    }
+
+    .hero__container {
+        padding: 0 4px;
+    }
+
+    .hero__title {
+        letter-spacing: -0.1px;
+    }
+
+    /*special-proposal*/
+    .special-proposal-container {
+        padding: 0 4px;
+    }
+
+    .special-proposal__item {
+        max-width: 100%;
+        width: 49%;
+    }
+
+    .special-card__contents {
+        min-height: 182px;
+    }
+
+    .special-card__text-two {
+        max-width: 100%;
+        width: 95%;
+    }
+
+    .special-card__btn {
+        padding: 17px 33px 17px
+    }
+
+    .special-proposal__item-three {
+        display: none;
+    }
+
+    /*high-rating*/
+    .high-rating__container {
+        padding: 0 4px;
+    }
+
+    .grid-high-rating {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .high-rating-card__status {
+        top: 31px;
+    }
+
+    /*banner-oxford*/
+    .banner-oxford {
+        position: relative;
+        min-height: 600px;
+        background-image: url(../images/oxford-768.webp);
+    }
+
+    .container-banner {
+        position: absolute;
+        top: 154px;
+        left: 37px;
+    }
+
+    /*top*/
+    .top {
+        padding: 70px 0 35px;
+    }
+
+    .top__container {
+        padding: 0 4px;
+    }
+
+    .top__title {
+        margin-bottom: 26px;
+    }
+
+    .top__list {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+       
+    }
+
+    .top__item-one {
+        grid-column: 1/3;
+    }
+
+    .top__item-two {
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    .top__item-three {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .top-card__image-three {
+        max-width: 407px;
+    }
+
+    .top__item-four {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .top-card__item-img-three,
+    .top-card__item-img-four,
+    .top-card__item-img-five {
+        bottom: 0;
+    }
+
+    .top__item-five {
+        grid-column: 2/3;
+        grid-row: 3/4;
+    }
+
+    /*useful*/
+    .useful__container {
+        padding: 0 4px;
+    }
+
+    .useful__item {
+        width: 49%;
+    }
+
+    .useful__item-three {
+        display: none;
+    }
+
+    .useful__text {
+        margin-bottom: 28px;
+    }
+
+    /*binding*/
+    .binding__container {
+        padding: 0 4px;
+    }
+
+    .binding__item-content {
+        width: 67%;
+    }
+
+    .binding__item-img {
+        width: 31%;
+        padding-bottom: 10px;
+    }
+
+    .binding__item-image {
+        max-height: 444px;
+    }
+
+    /*footer*/
+    .footer {
+        min-height: 220px;
+        padding: 25px 0;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        padding: 0 4px;
+    }
+
+    .footer__logotips {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 25px;
+    }
+
+    .footer__logotip-logo {
+        margin-bottom: 0;
+    }
+
+    .footer__social {
+        margin-right: 50px;
+    }
+
+    .footer__social-link {
+        height: 30px;
+    }
+
+    .footer__list {
+        padding: 0;
+        gap: 39px;
+    }
+
+    .footer__sublist {
+        gap: 9px;
+    }
+
+}

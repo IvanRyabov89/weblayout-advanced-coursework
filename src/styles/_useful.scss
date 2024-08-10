@@ -1,0 +1,90 @@
+.useful {
+    padding: 35px 0;
+}
+
+.useful__title {
+    margin: 0;
+    margin-bottom: 26px;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    color: #333;
+    word-wrap: break-word;
+}
+
+.useful__list {
+    display: flex;
+    gap: 32px;
+}
+
+.useful__item {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 676px;
+    border-radius: 10px;
+    background: #f6f6f6;
+    word-wrap: break-word;
+    justify-content: space-between;
+}
+
+.useful__item-two {
+    max-width: 624px;
+    width: 100%;
+}
+
+.useful__item-three,
+.useful__item-four,
+.useful__item-five {
+    display: none;
+}
+
+.useful__item-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 246px;
+    padding:26px 30px 30px;
+}
+
+.useful__text {
+    margin: 0;
+    margin-bottom: 36px;
+    font-family: $open;
+    font-weight: 400;
+    font-size: 24px;
+    color: #333;
+    line-height: 139%;
+    word-wrap: break-word;
+}
+
+.useful__link {
+    max-width: 128px;
+    padding: 17px 33px;
+    border: 2px solid #a65cf0;
+    border-radius: 10px;
+    font-family: $open;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    color: $f2;
+    word-wrap: break-word;
+    transition: background 0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.useful__link:focus {
+    background: $f4;
+    color: #fff;
+}
+
+.useful__link:hover {
+    background: $f2;
+    color: #fff;
+}
+
+.useful__link:active {
+    background: $f3;
+    color: #fff;
+}

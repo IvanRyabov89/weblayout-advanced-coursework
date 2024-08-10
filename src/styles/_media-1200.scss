@@ -1,0 +1,74 @@
+@media(max-width:1200px) {
+
+    /*header*/
+    .header__container-two {
+        padding-bottom: 28px;
+    }
+
+    /*hero*/
+    .hero__container {
+        min-height: 239px;
+    }
+
+    /*special-proposal*/
+    .special-card {
+        justify-content: space-between;
+    }
+
+    .special-card-two {
+        min-height: 368px;
+    }
+
+    .special-card__image-two {
+        height: auto;
+    }
+
+    /*high-rating*/
+.high-rating {
+    padding: 35px 0 71px;
+}
+
+    .high-rating-card__status {
+        top: 32px;
+    }
+
+    .high-rating-card__image {
+        bottom: 229px;
+    }
+
+    .high-rating-card__price {
+        margin-bottom: 22px;
+    }
+
+    /*top*/
+    .top-card__image-three {
+        max-width: 350px;
+        width: 100%;
+        max-height: 296px;
+    }
+
+    /*useful*/
+    .useful__item {
+        width: 33%;
+    }
+
+    .useful__item-three {
+        display: flex;
+    }
+
+    .useful__image {
+        width: 100%;
+    }
+
+    .useful__item-content {
+        min-height: 250px;
+    }
+
+    .useful__text {
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+
+
+}

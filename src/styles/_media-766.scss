@@ -1,0 +1,71 @@
+@media(max-width: 766px) {
+    .container {
+        padding: 0 12px;
+    }
+
+    /*header*/
+    .header__container-one-content {
+        padding: 17px 12px 15px;
+    }
+
+    .header__link-tel {
+        width: 154px;
+    }
+
+    .header__item-five,
+    .header__item-six {
+        display: none;
+    }
+
+    /*special-proposal*/
+
+    .special-proposal__item {
+        width: 100%;
+    }
+
+    .special-card__price {
+        gap: 0;
+        justify-content: space-between;
+    }
+
+    /*high-rating*/
+    .grid-high-ratings {
+        min-height: 450px;
+    }
+
+    .high-rating-card__image {
+        width: 85%;
+        bottom: 250px;
+    }
+
+    /*top*/
+
+    .top-card-lists {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .top__item {
+        padding: 15px;
+        min-height: 480px;
+    }
+
+    .top-card__images {
+        top: 145px;
+    }
+
+    /*binding*/
+    .binding__item-content {
+        width: 100%;
+    }
+
+    .binding__item-img {
+        display: none;
+    }
+
+    /*footer*/
+
+    .footer__list {
+        gap: 37px;
+    }
+}
